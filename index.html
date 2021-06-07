@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>A Small Business Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src="http://dash.ga.co/assets/jquery.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img id="header-img" src="https://i.ibb.co/tBb9VtJ/Sustenelle3.png" alt="Sustenelle Beauty logo" />
+    </div>
+
+    <ul>
+      <li><a style="color:rgb(97, 201, 111)" href="#about">About Us</a></li>
+      <li><a style="color:rgb(217, 76, 217)" href="#skincare">Skincare</a></li>
+      <li><a style="color:rgb(250, 80, 160)" href="#makeup">Make up</a></li>
+      <li><a style="color:rgb(75, 166, 255)" href="#accessories">Accessories</a></li>
+    </ul>
+
+  </header>
+
+  <article>
+    <h2 id="about">About Us</h2>
+    <p> Sustenelle is one of the fastest growing health and beauty brands in the world. Our products are made from local and natural materials, packaged just for you with the utmost attention to detail.</p>
+
+    <h2 id="skincare">Skincare</h2>
+    <p>We use safe and sustainable ingredients in clean bases that support the skin&apos;s natural function. Our actives are proven safe and effective, often developed using the latest advances in green technology.</p>
+
+    <div class="grid-container">
+      <div class="grid-item soaps"><img src="https://i.ibb.co/4108wN5/soap.jpg" alt="soap" />
+        <p>Soaps<span class="price">starting at $5</span><br />
+          <small>Essential oil ingredients include lemon, orange, sage and lavender.</small></p>
+      </div>
+      <div class="grid-item toners"><img src="https://i.ibb.co/CKjr6T8/toner.jpg" alt="toner" />
+        <p>Toners<span class="price">starting at $8</span><br />
+          <small>Ingredients include green tea, aloe vera and vitamin C. </small></p>
+      </div>
+      <div class="grid-item moisturizers"><img src="https://i.ibb.co/CmpSDPz/moisturizer.jpg" alt="moisturizer" />
+        <p>Moisturizers<span class="price">starting at $8</span><br />
+          <small>Ingredients include coconut oil, olive oil, shea butter and aloe vera. </small></p>
+      </div>
+    </div>
+
+    <h2 id="makeup">Make up</h2>
+    <p>Our ingredients are safe, hypoallergenic, non-comedogenic, and free of parabens, undesirable pollutants and petrochemicals. Our antioxidant formulations use natural emulsifiers from olives and coconut combined with scientifically advanced active ingredients derived from sustainable and renewable resources.</p>
+
+    <div class="grid-container">
+      <div class="grid-item lipsticks"><img src="https://i.ibb.co/xftpBHc/lipstick.jpg" />
+        <p>Lipsticks<span class="price">starting at $12</span><br />
+          <small>Ingredients include cocoa butter, avocado oil and mango seed butter. </small></p>
+      </div>
+      <div class="grid-item powders"><img src="https://i.ibb.co/q5VMRNm/face-powder.jpg" alt="face_powder" />
+        <p>Face Powders<span class="price">starting at $20</span><br />
+          <small>Our powders have soothing antioxidants like pine bark. </small></p>
+      </div>
+      <div class="grid-item mascaras"><img src="https://i.ibb.co/nfWYGhs/mascara.jpg" alt="mascara" />
+        <p>Mascaras<span class="price">starting at $16</span><br />
+          <small>Our pigments come from black tea, berry, and cocoa. </small></p>
+      </div>
+    </div>
+
+    <h2 id="accessories">Accessories</h2>
+    <p>Each individual piece is sustainably and ethically made by highly skilled, dedicated artisans using techniques handed down through the generations. Traditional craftsmanship is infused into all our products, and each of our items reflects the passion, love and skill of the hands that made it.</p>
+
+    <div class="grid-container">
+      <div class="grid-item brushes"><img src="https://i.ibb.co/6wD2Rjb/makeup-brushes.jpg" alt="makeup_brushes" />
+        <p>Brushes<span class="price">starting at $7</span><br />
+          <small>Our make up brushes are made from soft mink hair. </small></p>
+      </div>
+      <div class="grid-item bags"><img src="https://i.ibb.co/945yXxY/makeup-bag.jpg" alt="makeup_bag" />
+        <p>Make up Bags<span class="price">starting at $15</span><br />
+          <small>Our makeup bags are fair-trade, organic and eco-friendly. </small></p>
+      </div>
+      <div class="grid-item loofahs"><img src="https://i.ibb.co/GsdWdCj/loofahs.jpg" alt="loofahs" />
+        <p>Loofah Sponges<span class="price">starting at $5</span><br />
+          <small> Our natural loofahs are made from a gourd in the cucumber family. </small></p>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <strong>GET 20% OFF YOUR FIRST PURCHASE!</strong>
+    <p>Sign up for email updates on new products, promotions, restocks and more!</p>
+
+    <input type="email" placeholder="Enter your email address">
+
+    <input type="submit" onclick="emailSubmitted()">
+
+    <p id="emailConfirmation"></p>
+
+  </footer>
+
+	<script src="script.js">
+	</script>
+  
+</body>
+</html>

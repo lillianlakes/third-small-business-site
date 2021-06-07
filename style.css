@@ -1,0 +1,250 @@
+body {
+  background-color: #FFF;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo>img {
+  width: 60%;
+  max-width: 500px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-weight: 700;
+}
+
+ul {
+  margin: 7px 0 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#about {
+  background-color: rgb(97, 201, 111);
+  color: white;
+  padding: 2px 8px;
+  margin: 20px 0 0 0;
+}
+
+#skincare {
+  background-color: rgb(217, 76, 217);
+  color: white;
+  padding: 2px 8px;
+  margin: 20px 0 0 0;
+}
+
+#makeup {
+  background-color: rgb(250, 80, 160);
+  color: white;
+  padding: 2px 8px;
+  margin: 20px 0 0 0;
+}
+
+#accessories {
+  background-color: rgb(75, 166, 255);
+  color: white;
+  padding: 2px 8px;
+  margin: 20px 0 0 0;
+}
+
+article {
+  max-width: 95%;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+article p {
+  color: rgb(101, 67, 33);
+  font-size: 15px;
+  margin: 7px 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  padding: 0;
+  grid-gap: 10px;
+  margin: 0;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item p {
+  color: rgba(255, 255, 255, 1);
+  background: rgb(101, 67, 33);
+  background: linear-gradient(bottom, rgba(101, 67, 33, 1), rgba(101, 67, 33, .4));
+  background: -webkit-linear-gradient(bottom, rgba(101, 67, 33, 1), rgba(101, 67, 33, .4));
+  background: -moz-linear-gradient(bottom, rgba(101, 67, 33, 1), rgba(101, 67, 33, .4));
+  padding: 5px;
+  line-height: 15px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 15px;
+  width: 93.5%;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+.price {
+  float: right;
+  font-size: 13px;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 45px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+footer {
+  background: url("https://i.ibb.co/tCCB4WG/sustennelle-banner.jpg") no-repeat;
+  background-size: 100%;
+  height: 12.7rem;
+  position: relative;
+  margin: 2% 2.5% 0 2.5%;
+  padding: 3% 22% 0 22%;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+footer strong {
+  display: block;
+  font-size: 17px;
+}
+
+input[type="submit"] {
+  background: #4da058;
+  color: white;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+  background: rgba(101, 67, 33, 0.75);
+}
+
+input[type="email"] {
+  color: #4da058;
+  padding: 5px;
+}
+
+::placeholder {
+  color: rgb(101, 67, 33);
+}
+
+
+@media (max-width: 500px) {
+  .logo {
+    margin: 0 0 -10px 0;
+  }
+
+  li {
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+  }
+
+  ul {
+    margin: 15px 0 0 0;
+  }
+
+  h2 {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+
+  article p {
+    font-size: 13px;
+    line-height: 17px;
+    margin: 7px 0;
+  }
+
+  .grid-item p {
+    padding: 3px;
+    font-size: 11px;
+  }
+
+  .price {
+    font-size: 10px;
+  }
+
+  small {
+    font-size: 9px;
+  }
+
+  .show-description p {
+    height: 26px;
+  }
+
+  .show-description small {
+    opacity: 0;
+  }
+
+  footer {
+    background: url("https://i.ibb.co/tCCB4WG/sustennelle-banner.jpg") repeat;
+    background-size: 100%;
+    height: 9.6rem;
+    position: relative;
+    margin: 2% 2.5% 0 2.5%;
+    padding: 3% 25% 0 25%;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+
+  footer strong {
+    display: block;
+    font-size: 11px;
+  }
+
+  input[type="submit"] {
+    background: #4da058;
+    color: white;
+    padding: 3px;
+    display: block;
+    font-size: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background: rgba(101, 67, 33, 0.75);
+    font-size: 10px;
+  }
+
+  input[type="email"] {
+    color: #4da058;
+    padding: 3px;
+    font-size: 10px;
+  }
+}
